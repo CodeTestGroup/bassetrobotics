@@ -1,15 +1,15 @@
-var attempt = 3; // Variable to count number of attempts.
-// Below function Executes on click of login button.
+var attempt = 5; 
+
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == "youcantknowthisusername" && password == "youcantknowthispassword"){
+if ( username == "BassetRoboticRebels" && password == "RobotClub23!"){
 showdownloads();
 hidelogin();
 return false;
 }
 else{
-attempt --;// Decrementing by one.
+attempt --;
 alert("You have left "+attempt+" attempt;");
 // Disabling fields after 3 attempts.
 if( attempt == 0){
