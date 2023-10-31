@@ -3,7 +3,7 @@ var attempt = 5;
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == "BassetRoboticRebels" && password == "RobotClub23!"){
+if ( username == "Robot" && password == "Code"){
 showdownloads();
 hidelogin();
 return false;
